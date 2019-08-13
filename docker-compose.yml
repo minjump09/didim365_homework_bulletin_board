@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  python:
+    stdin_open: true
+    tty: true
+    image: 4f889fb6071d
+    volumes:
+      - type: bind
+        source: /Users/jpepe/Documents/Project/Didim365/homework_bulletin_board
+        target: /root/Document/Project/Didin365/homework_bulletin_board
+        volume:
+          nocopy: true
